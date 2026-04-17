@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matthew Ward — DevOps Team Lead</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="site-nav" id="site-nav">
+    <a href="#" class="nav-name">Matthew Ward</a>
+    <ul>
+      <li><a href="#bio">About</a></li>
+      <li><a href="#impact">Impact</a></li>
+      <li><a href="#values">Values</a></li>
+      <li><a href="#skills">Key Skills</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="headshot-wrap">
+        <img src="headshot.jpg" alt="Matthew Ward" class="headshot" />
+      </div>
+      <div class="hero-text">
+        <h1>Matthew Ward</h1>
+        <p class="tagline">DevOps Team Lead &nbsp;|&nbsp; Cloud &amp; Infrastructure Engineering &nbsp;|&nbsp; Making Complex Systems Understandable</p>
+        <p class="hero-contact">Jersey City, NJ &nbsp;·&nbsp; <a href="mailto:m1992w@gmail.com">m1992w@gmail.com</a></p>
+        <div class="hero-links">
+          <a href="mailto:m1992w@gmail.com" aria-label="Email">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            Email
+          </a>
+          <a href="https://www.linkedin.com/in/matt-ward-a7637260" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/TheGreatWardino" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+    <a href="#bio" class="scroll-hint" aria-label="Scroll down">&#8595;</a>
+  </header>
+
+  <main>
+
+    <!-- BIO / BRAND NARRATIVE -->
+    <section id="bio" class="section fade-in">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I help people understand complex technical systems — and use that understanding to grow their skills,
+          careers, and opportunities. I bridge the gap between deep technical concepts and the clear, structured
+          knowledge that actually enables people to move forward.
+        </p>
+        <p>
+          My natural mode is systems thinking. I don't just learn how things work — I learn how they connect,
+          where they break down, and how to organise that complexity into frameworks other people can actually use.
+          Complex systems only feel complex until someone takes the time to break them down the right way, and
+          that's work I find genuinely energising.
+        </p>
+        <p>
+          What sets me apart is the combination of technical depth and a pedagogical instinct. I can go deep
+          on infrastructure, automation, and cloud architecture — and then turn around and make that knowledge
+          accessible to someone encountering it for the first time. Whether that's a well-structured diagram,
+          a clear runbook, or a conversation that reframes a hard concept, I care about the moment understanding
+          clicks for someone else as much as the technical work itself.
+        </p>
+        <p>
+          I'm drawn to the intersections between technology, learning science, and human behaviour — genuinely
+          curious about how people build mental models, how teams transfer knowledge, and how thoughtful
+          documentation can be as powerful as well-written code. I thrive in environments where growth is
+          constant and intellectual curiosity is an asset.
+        </p>
+        <p>
+          I care about work that improves access, opportunity, and understanding — and I'm most drawn to
+          organisations where the work has real impact, whether that's enabling people to grow their skills,
+          improving access to technology, or building infrastructure that supports something that genuinely
+          matters. Technical excellence is a means, not an end, and I want to direct mine toward something
+          worth building.
+        </p>
+        <p class="bio-cta">
+          If you're working at the intersection of technical depth, enablement, and meaningful impact,
+          I'd love to connect.
+        </p>
+      </div>
+    </section>
+
+    <!-- IMPACT STORY -->
+    <section id="impact" class="section section-alt fade-in">
+      <div class="container">
+        <h2>Impact Story</h2>
+        <p class="impact-context">
+          When I joined Varonis, the deployment process was largely manual — engineers provisioning
+          infrastructure by hand, deployments tied to individual knowledge, and no standardized path from code to
+          production. It was slow, error-prone, and impossible to scale.
+        </p>
+        <p>
+          I led the end-to-end initiative to change that. We migrated from ad-hoc provisioning to a fully codified
+          CI/CD model: Terraform for infrastructure-as-code, Azure DevOps YAML pipelines for every deployment,
+          and a hub-spoke network architecture to give each application stack its own secure, autonomous footprint.
+          We also migrated our core build agents from VMs to AKS — eliminating single points of failure and
+          giving us elastic scale on demand.
+        </p>
+        <p>
+          The results were tangible. Infrastructure standup time dropped significantly and deployment risk fell
+          because every change followed the same codified, reviewed path. But standardization did something else
+          too — it made the connections between our services and systems visible in a way they hadn't been before.
+        </p>
+        <p>
+          Documentation had existed in scattered pieces with no cohesion or relationship to each other. Once
+          everything was standardized, it became clear that all of our services and infrastructure were deeply
+          connected — and that those connections deserved to be documented. I initiated the creation of a knowledge
+          base from scratch, giving that structure a home and turning fragmented institutional knowledge into
+          something teams could actually navigate, reference, and build on.
+        </p>
+      </div>
+    </section>
+
+    <!-- CORE VALUES & WORKING STYLE -->
+    <section id="values" class="section fade-in">
+      <div class="container">
+        <h2>Core Values &amp; Working Style</h2>
+        <ul class="values-grid">
+          <li class="value-card">
+            <span class="value-icon">&#9670;</span>
+            <strong>Systems over shortcuts</strong>
+            <p>Repeatable, documented processes beat individual brilliance every time. Good enough today is technical debt tomorrow — I build things that work consistently and look for ways to keep improving them.</p>
+          </li>
+          <li class="value-card">
+            <span class="value-icon">&#9670;</span>
+            <strong>Clarity as a force multiplier</strong>
+            <p>Complex ideas only stay complex until someone structures them well. I invest in documentation, diagrams, and knowledge bases because shared understanding moves faster than siloed expertise.</p>
+          </li>
+          <li class="value-card">
+            <span class="value-icon">&#9670;</span>
+            <strong>Adaptability under ambiguity</strong>
+            <p>I've navigated a lot of change across my career — new environments, shifting priorities, incomplete information. I've learned to move forward with what's available, make sound decisions without a full picture, and find solid footing in uncertain situations.</p>
+          </li>
+          <li class="value-card">
+            <span class="value-icon">&#9670;</span>
+            <strong>Bridge-building across teams</strong>
+            <p>The best infrastructure work happens at the intersection of technical and non-technical. I deliberately operate in that space — translating requirements, aligning stakeholders, and keeping the "why" visible.</p>
+          </li>
+          <li class="value-card">
+            <span class="value-icon">&#9670;</span>
+            <strong>Intellectual curiosity</strong>
+            <p>I'm genuinely interested in how things connect — not just technically, but across disciplines. Technology, philosophy, human behavior, learning science — I find the intersections between fields as interesting as the fields themselves.</p>
+          </li>
+          <li class="value-card">
+            <span class="value-icon">&#9670;</span>
+            <strong>Purpose over output</strong>
+            <p>I want to direct my skills toward things worth building. How something gets built matters — but so does what it's for and who it serves.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- KEY SKILLS & CAREER HIGHLIGHTS -->
+    <section id="skills" class="section section-alt fade-in">
+      <div class="container">
+        <h2>Skills &amp; Experience</h2>
+        <div class="skill-cards">
+
+          <div class="skill-card">
+            <h3>CI/CD &amp; Pipeline Engineering</h3>
+            <p>Designing and standardizing automated deployment pipelines that reduce risk and remove manual overhead from the path to production.</p>
+            <ul>
+              <li>Migrated an entire engineering org from manual deployments to standardized Azure DevOps YAML pipelines using Terraform IaC</li>
+              <li>Built a templated Jenkinsfile with Groovy, establishing a consistent CICD standard for NodeJS and React applications</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>Infrastructure as Code</h3>
+            <p>Replacing manual, error-prone provisioning with codified, repeatable infrastructure that can be reviewed, versioned, and trusted.</p>
+            <ul>
+              <li>Led IaC adoption across an engineering org, moving from hand-provisioned environments to fully Terraform-managed infrastructure</li>
+              <li>Upgraded manual service provisioning into a full IaC configuration using Terraform and Packer</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>Cloud Architecture</h3>
+            <p>Designing secure, scalable cloud environments across Azure and AWS — from network topology to application deployment patterns.</p>
+            <ul>
+              <li>Architected a hub-spoke network model to give each application stack a secure, autonomous deployment footprint</li>
+              <li>Played a key role in migrating on-prem appliances to AWS cloud services</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>Containerization &amp; Orchestration</h3>
+            <p>Building and migrating containerized workloads to improve reliability, scalability, and operational consistency.</p>
+            <ul>
+              <li>Led the migration of core build agents from VMs to AKS, eliminating single points of failure and enabling elastic scale</li>
+              <li>Implemented auto-scaling across compute infrastructure to improve HA and reliability</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>Security &amp; Compliance</h3>
+            <p>Embedding security into infrastructure and pipelines — from identity and access management to compliance standards and code scanning.</p>
+            <ul>
+              <li>Streamlined RBAC configurations, codifying security standards and reducing infrastructure standup time</li>
+              <li>Implemented Veracode application security scanning in CICD pipelines and enforced CIS-hardened images</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>Automation &amp; Scripting</h3>
+            <p>Writing utilities and scripts that eliminate repetitive work, enforce consistency, and free up engineering time for higher-value problems.</p>
+            <ul>
+              <li>Built PowerShell tooling to manage 75+ firewall devices across the United States</li>
+              <li>Created automated account lifecycle frameworks using Bash, JAMF Pro, BetterCloud, and Okta</li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      <a href="mailto:m1992w@gmail.com">m1992w@gmail.com</a>
+      &nbsp;·&nbsp;
+      <a href="https://www.linkedin.com/in/matt-ward-a7637260" target="_blank" rel="noopener">LinkedIn</a>
+      &nbsp;·&nbsp;
+      <a href="https://github.com/TheGreatWardino" target="_blank" rel="noopener">GitHub</a>
+      &nbsp;·&nbsp; &copy; 2026 Matthew Ward
+    </p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
