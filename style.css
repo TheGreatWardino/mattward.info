@@ -8,6 +8,8 @@
   --text-light:  #555;
   --accent:      #2a5c8b;
   --accent-soft: #d6e4f0;
+  --gold:        #c9933a;
+  --maroon:      #7a1f2e;
   --radius:      10px;
   --max-width:   780px;
   --transition:  0.35s ease;
@@ -100,7 +102,7 @@ strong { color: var(--text); }
 /* ── Hero ── */
 .hero {
   min-height: 100vh;
-  background: linear-gradient(160deg, var(--accent) 0%, #1a3a55 100%);
+  background: linear-gradient(160deg, var(--accent) 0%, #1a3a55 60%, var(--maroon) 100%);
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -192,7 +194,7 @@ strong { color: var(--text); }
 .scroll-hint {
   position: absolute;
   bottom: 2rem;
-  color: rgba(255,255,255,0.5);
+  color: var(--gold);
   font-size: 1.5rem;
   text-decoration: none;
   animation: bounce 1.8s infinite;
@@ -224,7 +226,7 @@ strong { color: var(--text); }
 }
 .value-icon {
   display: block;
-  color: var(--accent);
+  color: var(--gold);
   font-size: 1rem;
   margin-bottom: 0.5rem;
 }
@@ -381,7 +383,7 @@ strong { color: var(--text); }
 /* ── Impact & Bio extras ── */
 .impact-context {
   font-style: italic;
-  border-left: 3px solid var(--accent);
+  border-left: 3px solid var(--maroon);
   padding-left: 1rem;
   color: var(--text-light);
 }
