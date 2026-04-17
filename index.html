@@ -72,26 +72,28 @@
       <div class="container">
         <h2>Impact Story</h2>
         <p class="impact-context">
-          When I joined Varonis, the ITBA team's deployment process was largely manual — engineers provisioning
-          infrastructure by hand, deployments tied to individual knowledge, and no standardised path from code to
+          When I joined Varonis, the deployment process was largely manual — engineers provisioning
+          infrastructure by hand, deployments tied to individual knowledge, and no standardized path from code to
           production. It was slow, error-prone, and impossible to scale.
         </p>
         <p>
           I led the end-to-end initiative to change that. We migrated from ad-hoc provisioning to a fully codified
           CI/CD model: Terraform for infrastructure-as-code, Azure DevOps YAML pipelines for every deployment,
           and a hub-spoke network architecture to give each application stack its own secure, autonomous footprint.
-          In parallel, we migrated our core build agents from VMs to AKS, eliminating single points of failure and
+          We also migrated our core build agents from VMs to AKS — eliminating single points of failure and
           giving us elastic scale on demand.
         </p>
         <p>
-          The results were tangible. Infrastructure standup time dropped significantly. Deployment risk fell because
-          every change followed the same codified, reviewed path. The team's on-call burden decreased because we
-          finally had observable, reliable systems rather than one-off configurations no one fully understood.
+          The results were tangible. Infrastructure standup time dropped significantly and deployment risk fell
+          because every change followed the same codified, reviewed path. But standardization did something else
+          too — it made the connections between our services and systems visible in a way they hadn't been before.
         </p>
         <p>
-          But the part I'm proudest of wasn't the tooling — it was the knowledge base we built alongside it.
-          By documenting standards, runbooks, and architectural decisions as we went, we turned individual expertise
-          into shared institutional knowledge. That's the kind of impact that compounds long after a project ships.
+          Documentation had existed in scattered pieces with no cohesion or relationship to each other. Once
+          everything was standardized, it became clear that all of our services and infrastructure were deeply
+          connected — and that those connections deserved to be documented. I initiated the creation of a knowledge
+          base from scratch, giving that structure a home and turning fragmented institutional knowledge into
+          something teams could actually navigate, reference, and build on.
         </p>
       </div>
     </section>
@@ -103,8 +105,8 @@
         <ul class="values-grid">
           <li class="value-card">
             <span class="value-icon">&#9670;</span>
-            <strong>Standardisation over heroics</strong>
-            <p>Repeatable, documented processes beat individual brilliance every time. I build systems that work the same way whether I'm in the room or not.</p>
+            <strong>Systems over shortcuts</strong>
+            <p>Repeatable, documented processes beat individual brilliance every time. Good enough today is technical debt tomorrow — I build things that work consistently and look for ways to keep improving them.</p>
           </li>
           <li class="value-card">
             <span class="value-icon">&#9670;</span>
@@ -113,133 +115,107 @@
           </li>
           <li class="value-card">
             <span class="value-icon">&#9670;</span>
-            <strong>Continuous improvement</strong>
-            <p>Good enough today is technical debt tomorrow. I approach every system with an eye toward what could be automated, simplified, or hardened — and I build that habit into the teams I lead.</p>
+            <strong>Adaptability under ambiguity</strong>
+            <p>I've navigated a lot of change across my career — new environments, shifting priorities, incomplete information. I've learned to move forward with what's available, make sound decisions without a full picture, and find solid footing in uncertain situations.</p>
           </li>
           <li class="value-card">
             <span class="value-icon">&#9670;</span>
             <strong>Bridge-building across teams</strong>
             <p>The best infrastructure work happens at the intersection of technical and non-technical. I deliberately operate in that space — translating requirements, aligning stakeholders, and keeping the "why" visible.</p>
           </li>
+          <li class="value-card">
+            <span class="value-icon">&#9670;</span>
+            <strong>Intellectual curiosity</strong>
+            <p>I'm genuinely interested in how things connect — not just technically, but across disciplines. Technology, philosophy, human behavior, learning science — I find the intersections between fields as interesting as the fields themselves.</p>
+          </li>
+          <li class="value-card">
+            <span class="value-icon">&#9670;</span>
+            <strong>Purpose over output</strong>
+            <p>I want to direct my skills toward things worth building. How something gets built matters — but so does what it's for and who it serves.</p>
+          </li>
         </ul>
       </div>
     </section>
 
-    <!-- KEY SKILLS -->
+    <!-- KEY SKILLS & CAREER HIGHLIGHTS -->
     <section id="skills" class="section section-alt fade-in">
       <div class="container">
-        <h2>Key Skills</h2>
-        <div class="skills-categories">
-          <div class="skill-group">
-            <h3>Cloud &amp; Infrastructure</h3>
-            <ul class="skills-list">
-              <li>Azure (ARM)</li>
-              <li>Amazon Web Services</li>
-              <li>Terraform</li>
-              <li>Packer</li>
-              <li>Linux</li>
-              <li>Windows Server</li>
-              <li>Virtual Networks &amp; Subnetting</li>
+        <h2>Skills &amp; Experience</h2>
+        <div class="skill-cards">
+
+          <div class="skill-card">
+            <h3>CI/CD &amp; Pipeline Engineering</h3>
+            <p>Designing and standardizing automated deployment pipelines that reduce risk and remove manual overhead from the path to production.</p>
+            <ul>
+              <li>Migrated an entire engineering org from manual deployments to standardized Azure DevOps YAML pipelines using Terraform IaC</li>
+              <li>Built a templated Jenkinsfile with Groovy at Veritext, establishing a consistent CICD standard for NodeJS and React applications</li>
             </ul>
+            <div class="skill-tags">
+              <span>Azure DevOps</span><span>Jenkins</span><span>Terraform</span><span>YAML</span><span>Git</span>
+            </div>
           </div>
-          <div class="skill-group">
-            <h3>CI/CD &amp; Containers</h3>
-            <ul class="skills-list">
-              <li>Azure DevOps Pipelines</li>
-              <li>Docker</li>
-              <li>Kubernetes (AKS)</li>
-              <li>Azure Container Registry</li>
-              <li>GitHub Advanced Security</li>
-              <li>Jenkins</li>
+
+          <div class="skill-card">
+            <h3>Infrastructure as Code</h3>
+            <p>Replacing manual, error-prone provisioning with codified, repeatable infrastructure that can be reviewed, versioned, and trusted.</p>
+            <ul>
+              <li>Led IaC adoption at Varonis, moving from hand-provisioned environments to fully Terraform-managed infrastructure</li>
+              <li>Upgraded manual service provisioning at Veritext into a full IaC configuration using Terraform and Packer</li>
             </ul>
+            <div class="skill-tags">
+              <span>Terraform</span><span>Packer</span><span>Azure</span><span>AWS</span>
+            </div>
           </div>
-          <div class="skill-group">
-            <h3>Security &amp; Identity</h3>
-            <ul class="skills-list">
-              <li>Microsoft Entra ID</li>
-              <li>Okta</li>
-              <li>RBAC</li>
-              <li>Secrets Management</li>
-              <li>SOC2 / GDPR</li>
-              <li>Veracode</li>
+
+          <div class="skill-card">
+            <h3>Cloud Architecture</h3>
+            <p>Designing secure, scalable cloud environments across Azure and AWS — from network topology to application deployment patterns.</p>
+            <ul>
+              <li>Architected a hub-spoke network model at Varonis to give each application stack a secure, autonomous deployment footprint</li>
+              <li>Played a key role in migrating on-prem appliances to AWS cloud services at Veritext</li>
             </ul>
+            <div class="skill-tags">
+              <span>Azure</span><span>AWS</span><span>Virtual Networks</span><span>Subnetting</span><span>Hub-Spoke</span>
+            </div>
           </div>
-          <div class="skill-group">
-            <h3>Scripting &amp; Planning</h3>
-            <ul class="skills-list">
-              <li>Bash</li>
-              <li>PowerShell</li>
-              <li>Python</li>
-              <li>Azure CLI</li>
-              <li>Azure DevOps Boards</li>
-              <li>Atlassian Suite</li>
+
+          <div class="skill-card">
+            <h3>Containerization &amp; Orchestration</h3>
+            <p>Building and migrating containerized workloads to improve reliability, scalability, and operational consistency.</p>
+            <ul>
+              <li>Led the migration of core build agents from VMs to AKS at Varonis, eliminating single points of failure and enabling elastic scale</li>
+              <li>Implemented auto-scaling across compute infrastructure at Veritext to improve HA and reliability</li>
             </ul>
+            <div class="skill-tags">
+              <span>Docker</span><span>Kubernetes</span><span>AKS</span><span>Azure Container Registry</span>
+            </div>
           </div>
+
+          <div class="skill-card">
+            <h3>Security &amp; Compliance</h3>
+            <p>Embedding security into infrastructure and pipelines — from identity and access management to compliance standards and code scanning.</p>
+            <ul>
+              <li>Streamlined RBAC configurations at Varonis, codifying security standards and reducing infrastructure standup time</li>
+              <li>Implemented Veracode application security scanning in CICD pipelines and enforced CIS-hardened images at Veritext</li>
+            </ul>
+            <div class="skill-tags">
+              <span>RBAC</span><span>Entra ID</span><span>Okta</span><span>Veracode</span><span>SOC2</span><span>GDPR</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <h3>Automation &amp; Scripting</h3>
+            <p>Writing utilities and scripts that eliminate repetitive work, enforce consistency, and free up engineering time for higher-value problems.</p>
+            <ul>
+              <li>Built PowerShell tooling to manage 75+ firewall devices across the United States at Veritext</li>
+              <li>Created automated account lifecycle frameworks using Bash, JAMF Pro, BetterCloud, and Okta at charity: water</li>
+            </ul>
+            <div class="skill-tags">
+              <span>Bash</span><span>PowerShell</span><span>Python</span><span>Azure CLI</span>
+            </div>
+          </div>
+
         </div>
-      </div>
-    </section>
-
-    <!-- CAREER HIGHLIGHTS -->
-    <section id="career" class="section fade-in">
-      <div class="container">
-        <h2>Career Highlights</h2>
-        <ol class="timeline">
-
-          <li class="timeline-item">
-            <span class="timeline-date">2022 – Present</span>
-            <div class="timeline-content">
-              <strong>DevOps Team Lead &amp; DevOps Engineer — Varonis</strong>
-              <span class="timeline-location">New York, NY</span>
-              <p>
-                Lead an international team executing CI/CD standardisation, AKS migrations, and IaC adoption
-                across the IT Business Applications org. Architected a hub-spoke network model for secure,
-                autonomous application deployment and drove RBAC codification to reduce infrastructure standup time.
-                Initiated the ITBA Knowledge Base, creating a shared source of truth across departments.
-              </p>
-            </div>
-          </li>
-
-          <li class="timeline-item">
-            <span class="timeline-date">2018 – 2021</span>
-            <div class="timeline-content">
-              <strong>DevSecOps Engineer &amp; Network Analyst — Veritext</strong>
-              <span class="timeline-location">Livingston, NJ</span>
-              <p>
-                Established infrastructure provisioning standards and CICD pipelines for NodeJS and React
-                applications using Packer, Terraform, and Jenkins. Implemented Veracode security scanning,
-                CIS-hardened images, and auto-scaling across compute infrastructure. Supported 75+ offices
-                and built PowerShell tooling to manage firewall fleets nationally.
-              </p>
-            </div>
-          </li>
-
-          <li class="timeline-item">
-            <span class="timeline-date">2016 – 2017</span>
-            <div class="timeline-content">
-              <strong>System Administrator — charity: water</strong>
-              <span class="timeline-location">New York, NY</span>
-              <p>
-                Owned end-to-end IT strategy, system administration, and account lifecycle automation for
-                the organisation using Bash, JAMF Pro MDM, BetterCloud, and Okta. Deployed imaging solutions
-                for macOS and Windows fleets.
-              </p>
-            </div>
-          </li>
-
-          <li class="timeline-item">
-            <span class="timeline-date">2013 – 2016</span>
-            <div class="timeline-content">
-              <strong>IT Support (Intern → Senior Technician) — Huge</strong>
-              <span class="timeline-location">Brooklyn, NY</span>
-              <p>
-                Progressed from intern to Senior IT Support Technician over three years, building foundational
-                skills in enterprise systems, user support, and IT operations that underpinned every subsequent
-                role.
-              </p>
-            </div>
-          </li>
-
-        </ol>
 
         <div class="education">
           <h3>Education</h3>
