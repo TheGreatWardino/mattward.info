@@ -428,4 +428,7 @@ strong { color: var(--text); }
     gap: 1.5rem;
   }
   .headshot { width: 140px; height: 140px; }
+  .hero-links {
+    justify-content: center;
+  }
 }
