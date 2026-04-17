@@ -380,6 +380,38 @@ strong { color: var(--text); }
 }
 .education p, .volunteering p { margin-bottom: 0; }
 
+/* ── Testimonials ── */
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.75rem;
+  margin-top: 0.5rem;
+}
+.testimonial {
+  background: var(--bg-alt);
+  border-radius: var(--radius);
+  padding: 2rem 1.75rem;
+  border-left: 4px solid var(--maroon);
+  margin: 0;
+}
+.testimonial blockquote {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--text-light);
+  font-style: italic;
+  margin: 0 0 1.25rem 0;
+}
+.testimonial figcaption strong {
+  display: block;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.testimonial figcaption span {
+  font-size: 0.82rem;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: var(--text-light);
+}
+
 /* ── Impact & Bio extras ── */
 .impact-context {
   font-style: italic;
