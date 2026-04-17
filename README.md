@@ -8,14 +8,6 @@ A static HTML/CSS/JS site used as a personal CV and brand narrative page.
 
 This site is hosted on **GitHub Pages**, with a custom domain managed through **Namecheap DNS**. There is no server, no build process, and no CDN configuration required — GitHub Pages handles all of that automatically.
 
-### Previous Setup (for reference)
-
-- Static files hosted on **AWS S3**
-- **CloudFront** distribution in front of S3 for CDN and HTTPS
-- DNS managed via **Namecheap**, pointing to the CloudFront distribution
-
-This was more complex and required managing S3 bucket policies, CloudFront origins, SSL certificates via ACM, and cache invalidation on deploys.
-
 ### Hosting — GitHub Pages
 
 - Repo: `github.com/TheGreatWardino/mattward.info`
